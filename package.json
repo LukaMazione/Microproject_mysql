@@ -1,0 +1,26 @@
+{
+  "name": "mikroprojekt",
+  "version": "1.0.0",
+  "description": "Mikroprojekt javaScript, Node.js i mySQL",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "npx": "npx nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-handlebars": "^7.1.2",
+    "method-override": "^3.0.0",
+    "mysql2": "^3.6.5",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^8.56.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.29.1"
+  }
+}

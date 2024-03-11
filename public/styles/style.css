@@ -1,0 +1,88 @@
+/* * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+} */
+
+h2,
+h1 {
+  text-align: center;
+  padding: 15px;
+  text-shadow: 1px 1px 5px grey;
+}
+
+table {
+  margin-top: 30px;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+thead {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04aa6d;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #ddd;
+}
+
+a {
+  text-decoration-color: #04aa6d;
+  color: black;
+}
+
+.one-customer tr:nth-child(even) {
+  background-color: white;
+}
+
+.one-customer tr:hover {
+  background-color: #ddd;
+}
+
+.gray-header {
+  background-color: #f2f2f2;
+}
+
+.large-button {
+  align-items: center;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.form {
+  border: 2px solid #ddd;
+  border-radius: 0.5em;
+  width: 300px;
+  text-align: center;
+  padding: 20px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+input,
+textarea {
+  width: 220px;
+}
+
+.small {
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+.error {
+  background-color: #fdc5c5;
+  padding: 30px;
+  border: 2px solid red;
+}

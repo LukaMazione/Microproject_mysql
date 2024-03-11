@@ -1,0 +1,41 @@
+<table>
+  <caption>Todo's List</caption>
+  <thead>
+    <tr>
+      <th>
+        Id:
+      </th>
+      <th>
+        Todo title
+      </th>
+      <th>
+
+      </th>
+    </tr>
+  </thead>
+
+  <tbody>
+    {{#each todos}}
+      <tr>
+        <td>
+          {{this.id}}
+        </td>
+        <td>
+          {{this.title}}
+        </td>
+        <td>
+
+            <form method="POST"  action="/todos/delete/{{this.id}}?_method=DELETE">
+            <a class='btn btn-outline-success' href='/todos/{{this.id}}'>Szczegóły</a>
+            <button type="submit" class='btn btn-outline-danger'>Delete</button>     
+            </form>
+        </td>
+      </tr>
+    {{/each}}
+
+  </tbody>
+</table>
+
+<form method="GET" action="/todos/form/addTodo">
+<button type="submit">Add task</button>
+</form>
